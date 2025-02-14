@@ -171,21 +171,20 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 96px;
+    margin-top: 70px;
 }
 
-.clients .images .image-box {
-    width: 204px;
-    height: 91px;
-    border-radius: 12px;
+.clients .images a {
     display: flex;
     align-items: center;
-    justify-content: center;
+    height: 91px;
+    padding: 0 42px;
+    border-radius: 12px;
 }
 
-.clients .images .image-box:hover {
+.clients .images a:hover {
     border-radius: 12px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 .clients .images .logo-box img {
@@ -626,7 +625,6 @@ a {
 
 .footer .social {
     display: flex;
-    gap: 16px;
     margin-top: 40px;
 }
 
@@ -637,10 +635,15 @@ a {
     width: 28px;
     height: 28px;
     border-radius: 4px;
+    background: #f9f9f9;
+}
+
+.footer .social-link + .social-link {
+    margin-left: 16px;
 }
 
 .footer .social-link:hover {
-    background: #f9f9f9;
+    background: #ebebeb;
 }
 
 .footer .row-bottom {
