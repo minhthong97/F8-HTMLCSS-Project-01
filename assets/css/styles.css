@@ -27,7 +27,7 @@ a {
 
 .content {
     width: 1110px;
-    max-width: calc (100% - 48px);
+    max-width: calc(100% - 48px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -325,13 +325,13 @@ a {
 }
 
 .featured .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 70px;
 }
 
 .featured .item {
-    flex: 1;
     background: #fff;
     border-radius: 12px;
 }
@@ -603,7 +603,7 @@ a {
 }
 
 .footer .row-top {
-    gap: 185px;
+    column-gap: 185px;
 }
 
 .footer .heading {
